@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+        <title> My Quick Do List </title>   
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="logo.png" >
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="substyle.css">
+    </head>
+
+<body>
+    <div class="container">
+        <section class="add-panel">
+            <div class="add-form">
+                <div class="add-field">
+                    <div class="add-text-box">
+                        <input id="newdo" type="text" class="text-input" placeholder="Something to do?" />
+                    </div>
+                    <div class="add-button-box">
+                            <button id="adddobutton" class="button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="view-panel">
+                <div class="yet-to-do">
+                    <div class="list-head">
+                        <h2> Yet To do..</h2>
+                    </div>
+                    <div class="list-body">
+                         <ul class="list" id="undonedo">
+                            <li>
+                                <label class="label">Become World Class</label>
+                                <input type="text">
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                                <input type="checkbox">
+                            </li>
+                            <li>
+                                <label class="label">Be deligent</label>
+                                <input type="text">
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                                <input type="checkbox">
+                            </li>
+                            <li>
+                                <label>If called, prepare for Screening</label>
+                                <input type="text" value="Go Shopping">
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                                <input type="checkbox">
+                            </li>
+                         </ul>
+                    </div>
+                </div>
+                <div class="done">
+                    <div class="list-head">
+                        <h2>Done..</h2>
+                    </div>
+                    <div class="list-body">
+                            <ul class="list" id="donedo">
+                                <li>
+                                    <label>Complete and Submit Application</label>
+                                    <input type="text">
+                                    <button class="edit">Edit</button>
+                                    <button class="delete">Delete</button>
+                                    <input type="checkbox" checked>
+                                </li>
+                                <li>
+                                    <label>Build To do List</label>
+                                    <input type="text">
+                                    <button class="edit">Edit</button>
+                                    <button class="delete">Delete</button>
+                                    <input type="checkbox" checked>
+                                </li>
+                                <li>
+                                    <label>Start CChub Graduate Program Application</label>
+                                    <input type="text">
+                                    <button class="edit">Edit</button>
+                                    <button class="delete">Delete</button>
+                                    <input type="checkbox" checked>
+                                </li>
+                            </ul>
+        
+                    </div>
+                </div>
+
+            </section>
+      
+    </div>
+    <br>
+        <div class="copyright">
+            <span class="copy-left">Quick Do list beta.</span> <span class="copy-right"><img src="identity.png" height="20px"></span>
+        </div>
+
+    <script src="script.js"></script>
+
+  </body>
+
+
+</html>
